@@ -67,7 +67,7 @@ function renderOneCountryInfo(country) {
 
   const markupForSingleCountry = `
   <img width = "50px" src = "${svg}"/>
-  <h2>${official}}</h2>
+  <h2>${official}</h2>
   <p><b>Capital</b> ${capital}</p>
   <p><b>Population</b> ${population}</p>
   <p><b>Languages</b> ${languages}</p>`;
