@@ -27,9 +27,6 @@ function onInput(event) {
           listEl.innerHTML = '';
           infoEl.innerHTML = '';
           data.forEach(country => renderCountryRow(country));
-          //   for (let i = 0; i <= data.length; i += 1) {
-          //     let country = data[i];
-          //   }
         } else {
           listEl.innerHTML = '';
           infoEl.innerHTML = '';
@@ -60,7 +57,6 @@ function renderCountryRow(country) {
 function renderOneCountryInfo(country) {
   let official = country.name.official;
   let svg = country.flags.svg;
-  let png = country.flags.png;
   let capital = country.capital;
   let population = country.population;
   let languages = Object.values(country.languages);
